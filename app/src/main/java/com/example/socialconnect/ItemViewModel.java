@@ -9,17 +9,49 @@ import retrofit2.Retrofit;
 
 public class ItemViewModel {
 
-    public String Whatsapp;
-    private Object whatsapp;
+    private String Id;
+    private String Name;
+    private String Email_Id;
+    private String contactType;
+    private String Status;
 
-    public String getWhatsapp() {
-        return getWhatsapp();
+    public String getId() {
+        return Id;
     }
 
-
-    public void setWhatsapp(String whatsapp) {
-        this.whatsapp= whatsapp();
+    public void setId(String id) {
+        Id = id;
     }
 
+    public String getName() {
+        return Name;
+    }
 
+    public String getEmail_Id() {
+        return Email_Id;
+    }
+
+    public void setEmail_Id(String email_Id) {
+        Email_Id = email_Id;
+    }
+
+    public String getContactType() {
+        return contactType;
+    }
+
+    public String Status() {
+        return Status;
+    }
+
+    public void Status(String status) {
+        Status = Status;
+    }
+
+    public void setName(String ram) {
+        Name = ramesh;
+    }
+
+    public void setContactType(String s) {
+        Id = s;
+    }
 }
